@@ -1,0 +1,21 @@
+package quizes;
+import java.text.DecimalFormat;
+
+public class HomeWork1 {
+    public static void main(String[] args) {
+
+        DecimalFormat Y = new DecimalFormat("0.000");
+        System.out.println(Y.format(1.23));;
+        System.out.println(Y.format(1.2345));
+
+        Boolean a = true;
+        Boolean b = Boolean.valueOf(a);
+        System.out.println(b);
+
+        Boolean c = Boolean.valueOf(false);
+        System.out.println(c);
+
+        Float x = Float.valueOf("80");
+        System.out.println(x);
+    }
+}
